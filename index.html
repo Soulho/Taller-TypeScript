@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller TypeScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/scripts/dataSeries.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
+    <script type="module" src="/scripts/serie.js"></script>
+</head>
+<body>
+    <header>
+        <span class="title">TV SERIES</span>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-striped">
+                    <caption id="avg-seasons">Seasons average:</caption>
+                    <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Channel</th>
+                          <th scope="col">Seasons</th>
+                        </tr>
+                      </thead>
+                      <tbody id="series"></tbody>
+                  </table>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" id="imagen" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"  id="card-h5-id"></h5>
+                        <p class="card-text" id="card-p-id"></p>
+                        <a href="#" class=""  id="card-link-id"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
